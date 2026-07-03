@@ -46,11 +46,7 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
       const ResolvedjsPDF = jspdfModule.jsPDF || (jspdfModule as any).default || jspdfModule;
       const Resolvedhtml2canvas = html2canvasModule.default || html2canvasModule;
 
-      const pdf = new ResolvedjsPDF({
-        orientation: 'p',
-        unit: 'mm',
-        format: 'a4',
-      });
+      const pdf = new ResolvedjsPDF('p', 'mm', 'a4');
 
       const refs = [reportRef1, reportRef2, reportRef3];
       
@@ -82,9 +78,9 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
       setStatusMessage('Saving PDF file...');
       pdf.save(`${client.name.replace(/\s+/g, '_')}_Performance_Report.pdf`);
       setStatusMessage('');
-    } catch (error) {
+    } catch (error: any) {
       console.error('PDF Generation failed:', error);
-      alert('Failed to generate PDF. Please try again.');
+      alert('Failed to generate PDF: ' + (error?.message || error));
     } finally {
       setIsExporting(false);
     }
@@ -128,10 +124,10 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
         )}
       </button>
 
-      {/* 2. Hidden PDF Templates (A4 Layout Container positioned at 0,0 but layered behind and transparent) */}
+      {/* 2. Hidden PDF Templates (A4 Layout Container placed off-screen, keeping full opacity for canvas capturing) */}
       <div 
-        className="fixed top-0 left-0 pointer-events-none select-none" 
-        style={{ zIndex: -9999, opacity: 0.01 }}
+        className="absolute left-[-9999px] top-0 pointer-events-none select-none" 
+        style={{ opacity: 1 }}
       >
         
         {/* PAGE 1: COVER PAGE */}
@@ -205,8 +201,14 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
 
             {/* AI Summary Block */}
             <div className="bg-neutral-50 rounded-2xl p-8 border border-neutral-100 relative overflow-hidden">
-              <div className="absolute top-0 right-0 p-4 opacity-5 text-neutral-900">
-                <FileText className="h-24 w-24" />
+              <div className="absolute top-4 right-4 opacity-5 text-neutral-900">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-24 w-24">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
               </div>
               <h3 className="text-xs font-bold tracking-widest text-neutral-400 uppercase mb-3 flex items-center gap-1.5">
                 Executive Insights
@@ -397,22 +399,30 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
               </div>
             </div>
 
-            {/* Tactical recommendations */}
+             {/* Tactical recommendations */}
             <div className="space-y-3 pt-6 border-t border-neutral-100">
               <h3 className="text-xs font-bold tracking-widest text-neutral-400 uppercase">
                 AdPulse Tactical Recommendations
               </h3>
               <div className="grid grid-cols-1 gap-3 text-xs leading-relaxed text-neutral-600">
                 <div className="flex gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#10b981" strokeWidth="3" className="h-4 w-4 flex-shrink-0 mt-0.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
                   <p><strong>Optimize Budget Distribution:</strong> Consolidate Meta budgets to core campaign nodes that generate conversion CPA efficiency, minimizing peripheral ad set testing overlay.</p>
                 </div>
                 <div className="flex gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#10b981" strokeWidth="3" className="h-4 w-4 flex-shrink-0 mt-0.5" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
                   <p><strong>Keyword Refinement:</strong> Audit search terms weekly to block rising-CPA keywords and redirect those impressions to high-intent localized match keywords.</p>
                 </div>
                 <div className="flex gap-2">
-                  <AlertCircle className="h-4 w-4 text-amber-500 flex-shrink-0 mt-0.5" />
+                  <svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="3" className="h-4 w-4 flex-shrink-0 mt-0.5" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg>
                   <p><strong>Creative Freshness:</strong> CTR decay indicates potential creative saturation. Plan a fresh creative flight of asset updates for social campaigns in the next 15 days.</p>
                 </div>
               </div>
