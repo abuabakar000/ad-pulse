@@ -681,11 +681,6 @@ GEMINI_API_KEY="AIzaSy..."`}
                           <div>
                             <h3 className="text-sm font-bold text-white flex items-center gap-2">
                               {channel}
-                              {status.connected && (
-                                <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-bold bg-emerald-950/20 text-emerald-600">
-                                  Connected
-                                </span>
-                              )}
                             </h3>
                             <p className="text-[11px] text-neutral-400 dark:text-neutral-500 mt-1 max-w-md leading-normal">
                               {channelDesc}
@@ -711,7 +706,7 @@ GEMINI_API_KEY="AIzaSy..."`}
                             ) : status.connected ? (
                               'Disconnect'
                             ) : (
-                              'Connect Account'
+                              'Connect to Account'
                             )}
                           </button>
                         </div>
