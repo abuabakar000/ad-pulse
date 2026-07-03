@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
+    "html2canvas-pro": "^2.2.1",
     "jspdf": "^4.2.1",
     "lucide-react": "^1.23.0",
     "mongoose": "^9.7.3",

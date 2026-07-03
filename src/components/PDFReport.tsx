@@ -41,7 +41,7 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
     try {
       // Dynamically import libraries at runtime to avoid SSR pre-rendering bugs and resolver wraps
       const jspdfModule = await import('jspdf');
-      const html2canvasModule = await import('html2canvas');
+      const html2canvasModule = await import('html2canvas-pro');
 
       const ResolvedjsPDF = jspdfModule.jsPDF || (jspdfModule as any).default || jspdfModule;
       const Resolvedhtml2canvas = html2canvasModule.default || html2canvasModule;
