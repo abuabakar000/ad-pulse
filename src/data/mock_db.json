@@ -1,0 +1,2904 @@
+{
+  "clients": [
+    {
+      "id": "bloom-skincare",
+      "name": "Bloom Skincare",
+      "industry": "E-commerce",
+      "logoText": "BS",
+      "primaryColor": "#be185d",
+      "secondaryColor": "#fdf2f8",
+      "textColor": "#9d174d",
+      "conversionName": "Orders",
+      "targetCpa": 22,
+      "channels": [
+        "Meta Ads",
+        "Google Ads",
+        "Email"
+      ]
+    },
+    {
+      "id": "apex-fitness",
+      "name": "Apex Fitness",
+      "industry": "Health & Fitness",
+      "logoText": "AF",
+      "primaryColor": "#0284c7",
+      "secondaryColor": "#f0f9ff",
+      "textColor": "#0369a1",
+      "conversionName": "Memberships",
+      "targetCpa": 38,
+      "channels": [
+        "Google Ads",
+        "Meta Ads"
+      ]
+    },
+    {
+      "id": "nova-realty",
+      "name": "Nova Realty",
+      "industry": "Real Estate",
+      "logoText": "NR",
+      "primaryColor": "#047857",
+      "secondaryColor": "#ecfdf5",
+      "textColor": "#065f46",
+      "conversionName": "Inquiries",
+      "targetCpa": 165,
+      "channels": [
+        "Meta Ads",
+        "Google Ads"
+      ]
+    }
+  ],
+  "monthlyMetrics": [
+    {
+      "clientId": "bloom-skincare",
+      "month": "2026-04",
+      "spend": 4124.5,
+      "impressions": 105482,
+      "clicks": 3842,
+      "conversions": 182,
+      "ctr": 3.64,
+      "cpa": 22.66
+    },
+    {
+      "clientId": "bloom-skincare",
+      "month": "2026-05",
+      "spend": 4382.1,
+      "impressions": 112058,
+      "clicks": 4119,
+      "conversions": 201,
+      "ctr": 3.68,
+      "cpa": 21.8
+    },
+    {
+      "clientId": "bloom-skincare",
+      "month": "2026-06",
+      "spend": 4582.4,
+      "impressions": 121489,
+      "clicks": 4591,
+      "conversions": 228,
+      "ctr": 3.78,
+      "cpa": 20.1
+    },
+    {
+      "clientId": "apex-fitness",
+      "month": "2026-04",
+      "spend": 5842,
+      "impressions": 89450,
+      "clicks": 2981,
+      "conversions": 142,
+      "ctr": 3.33,
+      "cpa": 41.14
+    },
+    {
+      "clientId": "apex-fitness",
+      "month": "2026-05",
+      "spend": 6124.5,
+      "impressions": 92301,
+      "clicks": 3104,
+      "conversions": 155,
+      "ctr": 3.36,
+      "cpa": 39.51
+    },
+    {
+      "clientId": "apex-fitness",
+      "month": "2026-06",
+      "spend": 6500.2,
+      "impressions": 98124,
+      "clicks": 3429,
+      "conversions": 178,
+      "ctr": 3.49,
+      "cpa": 36.52
+    },
+    {
+      "clientId": "nova-realty",
+      "month": "2026-04",
+      "spend": 8421.8,
+      "impressions": 64821,
+      "clicks": 1942,
+      "conversions": 48,
+      "ctr": 2.99,
+      "cpa": 175.45
+    },
+    {
+      "clientId": "nova-realty",
+      "month": "2026-05",
+      "spend": 8941.5,
+      "impressions": 71204,
+      "clicks": 2130,
+      "conversions": 54,
+      "ctr": 2.99,
+      "cpa": 165.58
+    },
+    {
+      "clientId": "nova-realty",
+      "month": "2026-06",
+      "spend": 9812.3,
+      "impressions": 78941,
+      "clicks": 2482,
+      "conversions": 63,
+      "ctr": 3.14,
+      "cpa": 155.75
+    }
+  ],
+  "dailyMetrics": [
+    {
+      "date": "2026-06-03",
+      "clientId": "bloom-skincare",
+      "spend": 140.89,
+      "impressions": 3362,
+      "clicks": 138,
+      "conversions": 7,
+      "ctr": 4.1,
+      "cpa": 20.13,
+      "channels": {
+        "Meta Ads": {
+          "spend": 70.34,
+          "impressions": 1678,
+          "clicks": 69,
+          "conversions": 3,
+          "ctr": 4.11,
+          "cpa": 23.45
+        },
+        "Google Ads": {
+          "spend": 44.73,
+          "impressions": 1067,
+          "clicks": 44,
+          "conversions": 2,
+          "ctr": 4.12,
+          "cpa": 22.36
+        },
+        "Email": {
+          "spend": 7.94,
+          "impressions": 210,
+          "clicks": 21,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.94
+        }
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "clientId": "apex-fitness",
+      "spend": 210.32,
+      "impressions": 2834,
+      "clicks": 108,
+      "conversions": 5,
+      "ctr": 3.81,
+      "cpa": 42.06,
+      "channels": {
+        "Google Ads": {
+          "spend": 133.02,
+          "impressions": 1792,
+          "clicks": 68,
+          "conversions": 3,
+          "ctr": 3.79,
+          "cpa": 44.34
+        },
+        "Meta Ads": {
+          "spend": 77.3,
+          "impressions": 1042,
+          "clicks": 40,
+          "conversions": 2,
+          "ctr": 3.84,
+          "cpa": 38.65
+        }
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "clientId": "nova-realty",
+      "spend": 321.96,
+      "impressions": 2769,
+      "clicks": 85,
+      "conversions": 2,
+      "ctr": 3.07,
+      "cpa": 160.98,
+      "channels": {
+        "Meta Ads": {
+          "spend": 240.75,
+          "impressions": 2071,
+          "clicks": 64,
+          "conversions": 1,
+          "ctr": 3.09,
+          "cpa": 240.75
+        },
+        "Google Ads": {
+          "spend": 81.21,
+          "impressions": 698,
+          "clicks": 21,
+          "conversions": 1,
+          "ctr": 3.01,
+          "cpa": 81.21
+        }
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "clientId": "bloom-skincare",
+      "spend": 133.5,
+      "impressions": 3682,
+      "clicks": 139,
+      "conversions": 8,
+      "ctr": 3.78,
+      "cpa": 16.69,
+      "channels": {
+        "Meta Ads": {
+          "spend": 66.1,
+          "impressions": 1823,
+          "clicks": 69,
+          "conversions": 4,
+          "ctr": 3.78,
+          "cpa": 16.52
+        },
+        "Google Ads": {
+          "spend": 51.03,
+          "impressions": 1407,
+          "clicks": 53,
+          "conversions": 3,
+          "ctr": 3.77,
+          "cpa": 17.01
+        },
+        "Email": {
+          "spend": 5.97,
+          "impressions": 210,
+          "clicks": 21,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 5.97
+        }
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "clientId": "apex-fitness",
+      "spend": 195.69,
+      "impressions": 3155,
+      "clicks": 100,
+      "conversions": 5,
+      "ctr": 3.17,
+      "cpa": 39.14,
+      "channels": {
+        "Google Ads": {
+          "spend": 127.48,
+          "impressions": 2055,
+          "clicks": 65,
+          "conversions": 3,
+          "ctr": 3.16,
+          "cpa": 42.49
+        },
+        "Meta Ads": {
+          "spend": 68.21,
+          "impressions": 1100,
+          "clicks": 35,
+          "conversions": 2,
+          "ctr": 3.18,
+          "cpa": 34.1
+        }
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "clientId": "nova-realty",
+      "spend": 291.8,
+      "impressions": 2295,
+      "clicks": 73,
+      "conversions": 2,
+      "ctr": 3.18,
+      "cpa": 145.9,
+      "channels": {
+        "Meta Ads": {
+          "spend": 191.78,
+          "impressions": 1508,
+          "clicks": 48,
+          "conversions": 1,
+          "ctr": 3.18,
+          "cpa": 191.78
+        },
+        "Google Ads": {
+          "spend": 100.02,
+          "impressions": 787,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 3.18,
+          "cpa": 100.02
+        }
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "clientId": "bloom-skincare",
+      "spend": 130.11,
+      "impressions": 3699,
+      "clicks": 130,
+      "conversions": 5,
+      "ctr": 3.51,
+      "cpa": 26.02,
+      "channels": {
+        "Meta Ads": {
+          "spend": 75.54,
+          "impressions": 2148,
+          "clicks": 75,
+          "conversions": 3,
+          "ctr": 3.49,
+          "cpa": 25.18
+        },
+        "Google Ads": {
+          "spend": 42.13,
+          "impressions": 1198,
+          "clicks": 42,
+          "conversions": 2,
+          "ctr": 3.51,
+          "cpa": 21.07
+        },
+        "Email": {
+          "spend": 5.98,
+          "impressions": 200,
+          "clicks": 20,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 5.98
+        }
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "clientId": "apex-fitness",
+      "spend": 250.34,
+      "impressions": 3771,
+      "clicks": 128,
+      "conversions": 7,
+      "ctr": 3.39,
+      "cpa": 35.76,
+      "channels": {
+        "Google Ads": {
+          "spend": 148.69,
+          "impressions": 2240,
+          "clicks": 76,
+          "conversions": 4,
+          "ctr": 3.39,
+          "cpa": 37.17
+        },
+        "Meta Ads": {
+          "spend": 101.65,
+          "impressions": 1531,
+          "clicks": 52,
+          "conversions": 3,
+          "ctr": 3.4,
+          "cpa": 33.88
+        }
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "clientId": "nova-realty",
+      "spend": 347.06,
+      "impressions": 2694,
+      "clicks": 86,
+      "conversions": 2,
+      "ctr": 3.19,
+      "cpa": 173.53,
+      "channels": {
+        "Meta Ads": {
+          "spend": 231.49,
+          "impressions": 1797,
+          "clicks": 57,
+          "conversions": 1,
+          "ctr": 3.17,
+          "cpa": 231.49
+        },
+        "Google Ads": {
+          "spend": 115.57,
+          "impressions": 897,
+          "clicks": 29,
+          "conversions": 1,
+          "ctr": 3.23,
+          "cpa": 115.57
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "clientId": "bloom-skincare",
+      "spend": 135.94,
+      "impressions": 3521,
+      "clicks": 134,
+      "conversions": 8,
+      "ctr": 3.81,
+      "cpa": 16.99,
+      "channels": {
+        "Meta Ads": {
+          "spend": 73.83,
+          "impressions": 1912,
+          "clicks": 73,
+          "conversions": 4,
+          "ctr": 3.82,
+          "cpa": 18.46
+        },
+        "Google Ads": {
+          "spend": 48.82,
+          "impressions": 1264,
+          "clicks": 48,
+          "conversions": 3,
+          "ctr": 3.8,
+          "cpa": 16.27
+        },
+        "Email": {
+          "spend": 6.68,
+          "impressions": 200,
+          "clicks": 20,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 6.68
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "clientId": "apex-fitness",
+      "spend": 200.15,
+      "impressions": 3401,
+      "clicks": 109,
+      "conversions": 6,
+      "ctr": 3.2,
+      "cpa": 33.36,
+      "channels": {
+        "Google Ads": {
+          "spend": 122.89,
+          "impressions": 2088,
+          "clicks": 67,
+          "conversions": 4,
+          "ctr": 3.21,
+          "cpa": 30.72
+        },
+        "Meta Ads": {
+          "spend": 77.26,
+          "impressions": 1313,
+          "clicks": 42,
+          "conversions": 2,
+          "ctr": 3.2,
+          "cpa": 38.63
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "clientId": "nova-realty",
+      "spend": 392.38,
+      "impressions": 2856,
+      "clicks": 96,
+      "conversions": 3,
+      "ctr": 3.36,
+      "cpa": 130.79,
+      "channels": {
+        "Meta Ads": {
+          "spend": 275.33,
+          "impressions": 2004,
+          "clicks": 67,
+          "conversions": 2,
+          "ctr": 3.34,
+          "cpa": 137.66
+        },
+        "Google Ads": {
+          "spend": 117.05,
+          "impressions": 852,
+          "clicks": 29,
+          "conversions": 1,
+          "ctr": 3.4,
+          "cpa": 117.05
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "clientId": "bloom-skincare",
+      "spend": 161.98,
+      "impressions": 4376,
+      "clicks": 165,
+      "conversions": 8,
+      "ctr": 3.77,
+      "cpa": 20.25,
+      "channels": {
+        "Meta Ads": {
+          "spend": 84.4,
+          "impressions": 2280,
+          "clicks": 86,
+          "conversions": 4,
+          "ctr": 3.77,
+          "cpa": 21.1
+        },
+        "Google Ads": {
+          "spend": 59.87,
+          "impressions": 1618,
+          "clicks": 61,
+          "conversions": 3,
+          "ctr": 3.77,
+          "cpa": 19.96
+        },
+        "Email": {
+          "spend": 10,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 10
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "clientId": "apex-fitness",
+      "spend": 257.91,
+      "impressions": 3845,
+      "clicks": 134,
+      "conversions": 9,
+      "ctr": 3.49,
+      "cpa": 28.66,
+      "channels": {
+        "Google Ads": {
+          "spend": 149.65,
+          "impressions": 2231,
+          "clicks": 78,
+          "conversions": 5,
+          "ctr": 3.5,
+          "cpa": 29.93
+        },
+        "Meta Ads": {
+          "spend": 108.26,
+          "impressions": 1614,
+          "clicks": 56,
+          "conversions": 4,
+          "ctr": 3.47,
+          "cpa": 27.07
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "clientId": "nova-realty",
+      "spend": 363.38,
+      "impressions": 2870,
+      "clicks": 88,
+      "conversions": 2,
+      "ctr": 3.07,
+      "cpa": 181.69,
+      "channels": {
+        "Meta Ads": {
+          "spend": 258.79,
+          "impressions": 2044,
+          "clicks": 63,
+          "conversions": 1,
+          "ctr": 3.08,
+          "cpa": 258.79
+        },
+        "Google Ads": {
+          "spend": 104.59,
+          "impressions": 826,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 3.03,
+          "cpa": 104.59
+        }
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "clientId": "bloom-skincare",
+      "spend": 164.23,
+      "impressions": 4559,
+      "clicks": 161,
+      "conversions": 10,
+      "ctr": 3.53,
+      "cpa": 16.42,
+      "channels": {
+        "Meta Ads": {
+          "spend": 88.29,
+          "impressions": 2451,
+          "clicks": 87,
+          "conversions": 5,
+          "ctr": 3.55,
+          "cpa": 17.66
+        },
+        "Google Ads": {
+          "spend": 63.08,
+          "impressions": 1751,
+          "clicks": 62,
+          "conversions": 4,
+          "ctr": 3.54,
+          "cpa": 15.77
+        },
+        "Email": {
+          "spend": 7.45,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.73
+        }
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "clientId": "apex-fitness",
+      "spend": 219.3,
+      "impressions": 2897,
+      "clicks": 110,
+      "conversions": 6,
+      "ctr": 3.8,
+      "cpa": 36.55,
+      "channels": {
+        "Google Ads": {
+          "spend": 135.14,
+          "impressions": 1785,
+          "clicks": 68,
+          "conversions": 4,
+          "ctr": 3.81,
+          "cpa": 33.78
+        },
+        "Meta Ads": {
+          "spend": 84.16,
+          "impressions": 1112,
+          "clicks": 42,
+          "conversions": 2,
+          "ctr": 3.78,
+          "cpa": 42.08
+        }
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "clientId": "nova-realty",
+      "spend": 317.54,
+      "impressions": 2452,
+      "clicks": 81,
+      "conversions": 2,
+      "ctr": 3.3,
+      "cpa": 158.77,
+      "channels": {
+        "Meta Ads": {
+          "spend": 228.57,
+          "impressions": 1765,
+          "clicks": 58,
+          "conversions": 1,
+          "ctr": 3.29,
+          "cpa": 228.57
+        },
+        "Google Ads": {
+          "spend": 88.97,
+          "impressions": 687,
+          "clicks": 23,
+          "conversions": 1,
+          "ctr": 3.35,
+          "cpa": 88.97
+        }
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "clientId": "bloom-skincare",
+      "spend": 161.12,
+      "impressions": 4477,
+      "clicks": 164,
+      "conversions": 8,
+      "ctr": 3.66,
+      "cpa": 20.14,
+      "channels": {
+        "Meta Ads": {
+          "spend": 88.38,
+          "impressions": 2456,
+          "clicks": 90,
+          "conversions": 4,
+          "ctr": 3.66,
+          "cpa": 22.09
+        },
+        "Google Ads": {
+          "spend": 61.77,
+          "impressions": 1716,
+          "clicks": 63,
+          "conversions": 3,
+          "ctr": 3.67,
+          "cpa": 20.59
+        },
+        "Email": {
+          "spend": 7.77,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.77
+        }
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "clientId": "apex-fitness",
+      "spend": 189.66,
+      "impressions": 3072,
+      "clicks": 104,
+      "conversions": 5,
+      "ctr": 3.39,
+      "cpa": 37.93,
+      "channels": {
+        "Google Ads": {
+          "spend": 106.09,
+          "impressions": 1718,
+          "clicks": 58,
+          "conversions": 3,
+          "ctr": 3.38,
+          "cpa": 35.36
+        },
+        "Meta Ads": {
+          "spend": 83.57,
+          "impressions": 1354,
+          "clicks": 46,
+          "conversions": 2,
+          "ctr": 3.4,
+          "cpa": 41.78
+        }
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "clientId": "nova-realty",
+      "spend": 359.1,
+      "impressions": 2889,
+      "clicks": 87,
+      "conversions": 2,
+      "ctr": 3.01,
+      "cpa": 179.55,
+      "channels": {
+        "Meta Ads": {
+          "spend": 265.75,
+          "impressions": 2138,
+          "clicks": 64,
+          "conversions": 1,
+          "ctr": 2.99,
+          "cpa": 265.75
+        },
+        "Google Ads": {
+          "spend": 93.35,
+          "impressions": 751,
+          "clicks": 23,
+          "conversions": 1,
+          "ctr": 3.06,
+          "cpa": 93.35
+        }
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "clientId": "bloom-skincare",
+      "spend": 155.52,
+      "impressions": 4248,
+      "clicks": 149,
+      "conversions": 8,
+      "ctr": 3.51,
+      "cpa": 19.44,
+      "channels": {
+        "Meta Ads": {
+          "spend": 87.83,
+          "impressions": 2399,
+          "clicks": 84,
+          "conversions": 5,
+          "ctr": 3.5,
+          "cpa": 17.57
+        },
+        "Google Ads": {
+          "spend": 50.02,
+          "impressions": 1366,
+          "clicks": 48,
+          "conversions": 3,
+          "ctr": 3.51,
+          "cpa": 16.67
+        },
+        "Email": {
+          "spend": 7.21,
+          "impressions": 220,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.21
+        }
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "clientId": "apex-fitness",
+      "spend": 208.92,
+      "impressions": 2972,
+      "clicks": 108,
+      "conversions": 6,
+      "ctr": 3.63,
+      "cpa": 34.82,
+      "channels": {
+        "Google Ads": {
+          "spend": 128.14,
+          "impressions": 1823,
+          "clicks": 66,
+          "conversions": 4,
+          "ctr": 3.62,
+          "cpa": 32.03
+        },
+        "Meta Ads": {
+          "spend": 80.78,
+          "impressions": 1149,
+          "clicks": 42,
+          "conversions": 2,
+          "ctr": 3.66,
+          "cpa": 40.39
+        }
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "clientId": "nova-realty",
+      "spend": 341.17,
+      "impressions": 3061,
+      "clicks": 87,
+      "conversions": 2,
+      "ctr": 2.84,
+      "cpa": 170.59,
+      "channels": {
+        "Meta Ads": {
+          "spend": 231.61,
+          "impressions": 2078,
+          "clicks": 59,
+          "conversions": 1,
+          "ctr": 2.84,
+          "cpa": 231.61
+        },
+        "Google Ads": {
+          "spend": 109.56,
+          "impressions": 983,
+          "clicks": 28,
+          "conversions": 1,
+          "ctr": 2.85,
+          "cpa": 109.56
+        }
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "clientId": "bloom-skincare",
+      "spend": 160.16,
+      "impressions": 4043,
+      "clicks": 160,
+      "conversions": 9,
+      "ctr": 3.96,
+      "cpa": 17.8,
+      "channels": {
+        "Meta Ads": {
+          "spend": 85.88,
+          "impressions": 2168,
+          "clicks": 86,
+          "conversions": 5,
+          "ctr": 3.97,
+          "cpa": 17.18
+        },
+        "Google Ads": {
+          "spend": 56.58,
+          "impressions": 1428,
+          "clicks": 57,
+          "conversions": 3,
+          "ctr": 3.99,
+          "cpa": 18.86
+        },
+        "Email": {
+          "spend": 7.07,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.54
+        }
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "clientId": "apex-fitness",
+      "spend": 238.27,
+      "impressions": 3420,
+      "clicks": 121,
+      "conversions": 5,
+      "ctr": 3.54,
+      "cpa": 47.65,
+      "channels": {
+        "Google Ads": {
+          "spend": 130.8,
+          "impressions": 1877,
+          "clicks": 66,
+          "conversions": 3,
+          "ctr": 3.52,
+          "cpa": 43.6
+        },
+        "Meta Ads": {
+          "spend": 107.47,
+          "impressions": 1543,
+          "clicks": 55,
+          "conversions": 2,
+          "ctr": 3.56,
+          "cpa": 53.73
+        }
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "clientId": "nova-realty",
+      "spend": 386.67,
+      "impressions": 3189,
+      "clicks": 98,
+      "conversions": 3,
+      "ctr": 3.07,
+      "cpa": 128.89,
+      "channels": {
+        "Meta Ads": {
+          "spend": 252.12,
+          "impressions": 2079,
+          "clicks": 64,
+          "conversions": 2,
+          "ctr": 3.08,
+          "cpa": 126.06
+        },
+        "Google Ads": {
+          "spend": 134.55,
+          "impressions": 1110,
+          "clicks": 34,
+          "conversions": 1,
+          "ctr": 3.06,
+          "cpa": 134.55
+        }
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "clientId": "bloom-skincare",
+      "spend": 159.61,
+      "impressions": 3841,
+      "clicks": 158,
+      "conversions": 10,
+      "ctr": 4.11,
+      "cpa": 15.96,
+      "channels": {
+        "Meta Ads": {
+          "spend": 90.34,
+          "impressions": 2174,
+          "clicks": 89,
+          "conversions": 6,
+          "ctr": 4.09,
+          "cpa": 15.06
+        },
+        "Google Ads": {
+          "spend": 53.22,
+          "impressions": 1281,
+          "clicks": 53,
+          "conversions": 3,
+          "ctr": 4.14,
+          "cpa": 17.74
+        },
+        "Email": {
+          "spend": 7.41,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.71
+        }
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "clientId": "apex-fitness",
+      "spend": 232.28,
+      "impressions": 3724,
+      "clicks": 126,
+      "conversions": 8,
+      "ctr": 3.38,
+      "cpa": 29.04,
+      "channels": {
+        "Google Ads": {
+          "spend": 144.98,
+          "impressions": 2324,
+          "clicks": 79,
+          "conversions": 5,
+          "ctr": 3.4,
+          "cpa": 29
+        },
+        "Meta Ads": {
+          "spend": 87.3,
+          "impressions": 1400,
+          "clicks": 47,
+          "conversions": 3,
+          "ctr": 3.36,
+          "cpa": 29.1
+        }
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "clientId": "nova-realty",
+      "spend": 350.49,
+      "impressions": 2557,
+      "clicks": 88,
+      "conversions": 3,
+      "ctr": 3.44,
+      "cpa": 116.83,
+      "channels": {
+        "Meta Ads": {
+          "spend": 234.96,
+          "impressions": 1714,
+          "clicks": 59,
+          "conversions": 2,
+          "ctr": 3.44,
+          "cpa": 117.48
+        },
+        "Google Ads": {
+          "spend": 115.53,
+          "impressions": 843,
+          "clicks": 29,
+          "conversions": 1,
+          "ctr": 3.44,
+          "cpa": 115.53
+        }
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "clientId": "bloom-skincare",
+      "spend": 158.34,
+      "impressions": 3997,
+      "clicks": 159,
+      "conversions": 7,
+      "ctr": 3.98,
+      "cpa": 22.62,
+      "channels": {
+        "Meta Ads": {
+          "spend": 79.47,
+          "impressions": 2006,
+          "clicks": 80,
+          "conversions": 4,
+          "ctr": 3.99,
+          "cpa": 19.87
+        },
+        "Google Ads": {
+          "spend": 52.46,
+          "impressions": 1324,
+          "clicks": 53,
+          "conversions": 2,
+          "ctr": 4,
+          "cpa": 26.23
+        },
+        "Email": {
+          "spend": 8.35,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 8.35
+        }
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "clientId": "apex-fitness",
+      "spend": 217.96,
+      "impressions": 3694,
+      "clicks": 121,
+      "conversions": 5,
+      "ctr": 3.28,
+      "cpa": 43.59,
+      "channels": {
+        "Google Ads": {
+          "spend": 120.37,
+          "impressions": 2040,
+          "clicks": 67,
+          "conversions": 3,
+          "ctr": 3.28,
+          "cpa": 40.12
+        },
+        "Meta Ads": {
+          "spend": 97.59,
+          "impressions": 1654,
+          "clicks": 54,
+          "conversions": 2,
+          "ctr": 3.26,
+          "cpa": 48.8
+        }
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "clientId": "nova-realty",
+      "spend": 285.68,
+      "impressions": 2215,
+      "clicks": 72,
+      "conversions": 2,
+      "ctr": 3.25,
+      "cpa": 142.84,
+      "channels": {
+        "Meta Ads": {
+          "spend": 212.68,
+          "impressions": 1649,
+          "clicks": 54,
+          "conversions": 1,
+          "ctr": 3.27,
+          "cpa": 212.68
+        },
+        "Google Ads": {
+          "spend": 73,
+          "impressions": 566,
+          "clicks": 18,
+          "conversions": 1,
+          "ctr": 3.18,
+          "cpa": 73
+        }
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "clientId": "bloom-skincare",
+      "spend": 158.63,
+      "impressions": 3868,
+      "clicks": 153,
+      "conversions": 8,
+      "ctr": 3.96,
+      "cpa": 19.83,
+      "channels": {
+        "Meta Ads": {
+          "spend": 93.09,
+          "impressions": 2270,
+          "clicks": 90,
+          "conversions": 5,
+          "ctr": 3.96,
+          "cpa": 18.62
+        },
+        "Google Ads": {
+          "spend": 57.63,
+          "impressions": 1405,
+          "clicks": 56,
+          "conversions": 3,
+          "ctr": 3.99,
+          "cpa": 19.21
+        },
+        "Email": {
+          "spend": 7.51,
+          "impressions": 230,
+          "clicks": 23,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.51
+        }
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "clientId": "apex-fitness",
+      "spend": 191.75,
+      "impressions": 2909,
+      "clicks": 104,
+      "conversions": 4,
+      "ctr": 3.58,
+      "cpa": 47.94,
+      "channels": {
+        "Google Ads": {
+          "spend": 119.97,
+          "impressions": 1820,
+          "clicks": 65,
+          "conversions": 3,
+          "ctr": 3.57,
+          "cpa": 39.99
+        },
+        "Meta Ads": {
+          "spend": 71.78,
+          "impressions": 1089,
+          "clicks": 39,
+          "conversions": 1,
+          "ctr": 3.58,
+          "cpa": 71.78
+        }
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "clientId": "nova-realty",
+      "spend": 349.04,
+      "impressions": 2794,
+      "clicks": 87,
+      "conversions": 3,
+      "ctr": 3.11,
+      "cpa": 116.35,
+      "channels": {
+        "Meta Ads": {
+          "spend": 261.08,
+          "impressions": 2090,
+          "clicks": 65,
+          "conversions": 2,
+          "ctr": 3.11,
+          "cpa": 130.54
+        },
+        "Google Ads": {
+          "spend": 87.96,
+          "impressions": 704,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 3.13,
+          "cpa": 87.96
+        }
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "clientId": "bloom-skincare",
+      "spend": 179.32,
+      "impressions": 4322,
+      "clicks": 177,
+      "conversions": 11,
+      "ctr": 4.1,
+      "cpa": 16.3,
+      "channels": {
+        "Meta Ads": {
+          "spend": 92.62,
+          "impressions": 2232,
+          "clicks": 91,
+          "conversions": 6,
+          "ctr": 4.08,
+          "cpa": 15.44
+        },
+        "Google Ads": {
+          "spend": 58.27,
+          "impressions": 1404,
+          "clicks": 58,
+          "conversions": 4,
+          "ctr": 4.13,
+          "cpa": 14.57
+        },
+        "Email": {
+          "spend": 7.58,
+          "impressions": 270,
+          "clicks": 27,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.79
+        }
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "clientId": "apex-fitness",
+      "spend": 229.74,
+      "impressions": 3110,
+      "clicks": 119,
+      "conversions": 5,
+      "ctr": 3.83,
+      "cpa": 45.95,
+      "channels": {
+        "Google Ads": {
+          "spend": 147.37,
+          "impressions": 1995,
+          "clicks": 76,
+          "conversions": 3,
+          "ctr": 3.81,
+          "cpa": 49.12
+        },
+        "Meta Ads": {
+          "spend": 82.37,
+          "impressions": 1115,
+          "clicks": 43,
+          "conversions": 2,
+          "ctr": 3.86,
+          "cpa": 41.19
+        }
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "clientId": "nova-realty",
+      "spend": 346.56,
+      "impressions": 2793,
+      "clicks": 89,
+      "conversions": 3,
+      "ctr": 3.19,
+      "cpa": 115.52,
+      "channels": {
+        "Meta Ads": {
+          "spend": 235.77,
+          "impressions": 1900,
+          "clicks": 61,
+          "conversions": 2,
+          "ctr": 3.21,
+          "cpa": 117.89
+        },
+        "Google Ads": {
+          "spend": 110.79,
+          "impressions": 893,
+          "clicks": 28,
+          "conversions": 1,
+          "ctr": 3.14,
+          "cpa": 110.79
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "clientId": "bloom-skincare",
+      "spend": 148.17,
+      "impressions": 4186,
+      "clicks": 152,
+      "conversions": 9,
+      "ctr": 3.63,
+      "cpa": 16.46,
+      "channels": {
+        "Meta Ads": {
+          "spend": 79.17,
+          "impressions": 2237,
+          "clicks": 81,
+          "conversions": 5,
+          "ctr": 3.62,
+          "cpa": 15.83
+        },
+        "Google Ads": {
+          "spend": 47.83,
+          "impressions": 1351,
+          "clicks": 49,
+          "conversions": 3,
+          "ctr": 3.63,
+          "cpa": 15.94
+        },
+        "Email": {
+          "spend": 9.41,
+          "impressions": 230,
+          "clicks": 23,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 4.71
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "clientId": "apex-fitness",
+      "spend": 213.97,
+      "impressions": 2809,
+      "clicks": 107,
+      "conversions": 6,
+      "ctr": 3.81,
+      "cpa": 35.66,
+      "channels": {
+        "Google Ads": {
+          "spend": 137.23,
+          "impressions": 1802,
+          "clicks": 69,
+          "conversions": 4,
+          "ctr": 3.83,
+          "cpa": 34.31
+        },
+        "Meta Ads": {
+          "spend": 76.74,
+          "impressions": 1007,
+          "clicks": 38,
+          "conversions": 2,
+          "ctr": 3.77,
+          "cpa": 38.37
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "clientId": "nova-realty",
+      "spend": 294.85,
+      "impressions": 2293,
+      "clicks": 75,
+      "conversions": 2,
+      "ctr": 3.27,
+      "cpa": 147.43,
+      "channels": {
+        "Meta Ads": {
+          "spend": 225.79,
+          "impressions": 1756,
+          "clicks": 57,
+          "conversions": 2,
+          "ctr": 3.25,
+          "cpa": 112.89
+        },
+        "Google Ads": {
+          "spend": 69.06,
+          "impressions": 537,
+          "clicks": 18,
+          "conversions": 0,
+          "ctr": 3.35,
+          "cpa": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "clientId": "bloom-skincare",
+      "spend": 162.33,
+      "impressions": 4233,
+      "clicks": 164,
+      "conversions": 8,
+      "ctr": 3.87,
+      "cpa": 20.29,
+      "channels": {
+        "Meta Ads": {
+          "spend": 91.85,
+          "impressions": 2395,
+          "clicks": 93,
+          "conversions": 5,
+          "ctr": 3.88,
+          "cpa": 18.37
+        },
+        "Google Ads": {
+          "spend": 52.57,
+          "impressions": 1371,
+          "clicks": 53,
+          "conversions": 3,
+          "ctr": 3.87,
+          "cpa": 17.52
+        },
+        "Email": {
+          "spend": 8.97,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 8.97
+        }
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "clientId": "apex-fitness",
+      "spend": 223.32,
+      "impressions": 3536,
+      "clicks": 122,
+      "conversions": 5,
+      "ctr": 3.45,
+      "cpa": 44.66,
+      "channels": {
+        "Google Ads": {
+          "spend": 127.03,
+          "impressions": 2011,
+          "clicks": 69,
+          "conversions": 3,
+          "ctr": 3.43,
+          "cpa": 42.34
+        },
+        "Meta Ads": {
+          "spend": 96.29,
+          "impressions": 1525,
+          "clicks": 53,
+          "conversions": 2,
+          "ctr": 3.48,
+          "cpa": 48.15
+        }
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "clientId": "nova-realty",
+      "spend": 326.26,
+      "impressions": 2609,
+      "clicks": 83,
+      "conversions": 2,
+      "ctr": 3.18,
+      "cpa": 163.13,
+      "channels": {
+        "Meta Ads": {
+          "spend": 238.82,
+          "impressions": 1910,
+          "clicks": 61,
+          "conversions": 1,
+          "ctr": 3.19,
+          "cpa": 238.82
+        },
+        "Google Ads": {
+          "spend": 87.44,
+          "impressions": 699,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 3.15,
+          "cpa": 87.44
+        }
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "clientId": "bloom-skincare",
+      "spend": 135.28,
+      "impressions": 3953,
+      "clicks": 142,
+      "conversions": 7,
+      "ctr": 3.59,
+      "cpa": 19.33,
+      "channels": {
+        "Meta Ads": {
+          "spend": 73.79,
+          "impressions": 2156,
+          "clicks": 77,
+          "conversions": 4,
+          "ctr": 3.57,
+          "cpa": 18.45
+        },
+        "Google Ads": {
+          "spend": 44.89,
+          "impressions": 1312,
+          "clicks": 47,
+          "conversions": 2,
+          "ctr": 3.58,
+          "cpa": 22.45
+        },
+        "Email": {
+          "spend": 6.52,
+          "impressions": 210,
+          "clicks": 21,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 6.52
+        }
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "clientId": "apex-fitness",
+      "spend": 191.79,
+      "impressions": 3217,
+      "clicks": 104,
+      "conversions": 5,
+      "ctr": 3.23,
+      "cpa": 38.36,
+      "channels": {
+        "Google Ads": {
+          "spend": 119.71,
+          "impressions": 2008,
+          "clicks": 65,
+          "conversions": 3,
+          "ctr": 3.24,
+          "cpa": 39.9
+        },
+        "Meta Ads": {
+          "spend": 72.08,
+          "impressions": 1209,
+          "clicks": 39,
+          "conversions": 2,
+          "ctr": 3.23,
+          "cpa": 36.04
+        }
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "clientId": "nova-realty",
+      "spend": 367.06,
+      "impressions": 3022,
+      "clicks": 95,
+      "conversions": 2,
+      "ctr": 3.14,
+      "cpa": 183.53,
+      "channels": {
+        "Meta Ads": {
+          "spend": 234.24,
+          "impressions": 1928,
+          "clicks": 61,
+          "conversions": 1,
+          "ctr": 3.16,
+          "cpa": 234.24
+        },
+        "Google Ads": {
+          "spend": 132.82,
+          "impressions": 1094,
+          "clicks": 34,
+          "conversions": 1,
+          "ctr": 3.11,
+          "cpa": 132.82
+        }
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "clientId": "bloom-skincare",
+      "spend": 145.47,
+      "impressions": 3802,
+      "clicks": 152,
+      "conversions": 7,
+      "ctr": 4,
+      "cpa": 20.78,
+      "channels": {
+        "Meta Ads": {
+          "spend": 83.19,
+          "impressions": 2174,
+          "clicks": 87,
+          "conversions": 4,
+          "ctr": 4,
+          "cpa": 20.8
+        },
+        "Google Ads": {
+          "spend": 49.34,
+          "impressions": 1290,
+          "clicks": 52,
+          "conversions": 2,
+          "ctr": 4.03,
+          "cpa": 24.67
+        },
+        "Email": {
+          "spend": 7.77,
+          "impressions": 230,
+          "clicks": 23,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.77
+        }
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "clientId": "apex-fitness",
+      "spend": 202.5,
+      "impressions": 3112,
+      "clicks": 104,
+      "conversions": 6,
+      "ctr": 3.34,
+      "cpa": 33.75,
+      "channels": {
+        "Google Ads": {
+          "spend": 127.16,
+          "impressions": 1954,
+          "clicks": 65,
+          "conversions": 4,
+          "ctr": 3.33,
+          "cpa": 31.79
+        },
+        "Meta Ads": {
+          "spend": 75.34,
+          "impressions": 1158,
+          "clicks": 39,
+          "conversions": 2,
+          "ctr": 3.37,
+          "cpa": 37.67
+        }
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "clientId": "nova-realty",
+      "spend": 384.31,
+      "impressions": 2722,
+      "clicks": 93,
+      "conversions": 2,
+      "ctr": 3.42,
+      "cpa": 192.16,
+      "channels": {
+        "Meta Ads": {
+          "spend": 288.67,
+          "impressions": 2045,
+          "clicks": 70,
+          "conversions": 2,
+          "ctr": 3.42,
+          "cpa": 144.34
+        },
+        "Google Ads": {
+          "spend": 95.64,
+          "impressions": 677,
+          "clicks": 23,
+          "conversions": 0,
+          "ctr": 3.4,
+          "cpa": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "clientId": "bloom-skincare",
+      "spend": 178.31,
+      "impressions": 4491,
+      "clicks": 178,
+      "conversions": 11,
+      "ctr": 3.96,
+      "cpa": 16.21,
+      "channels": {
+        "Meta Ads": {
+          "spend": 90.29,
+          "impressions": 2274,
+          "clicks": 90,
+          "conversions": 6,
+          "ctr": 3.96,
+          "cpa": 15.05
+        },
+        "Google Ads": {
+          "spend": 67.35,
+          "impressions": 1696,
+          "clicks": 67,
+          "conversions": 4,
+          "ctr": 3.95,
+          "cpa": 16.84
+        },
+        "Email": {
+          "spend": 6.45,
+          "impressions": 270,
+          "clicks": 27,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.23
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "clientId": "apex-fitness",
+      "spend": 212.49,
+      "impressions": 3196,
+      "clicks": 114,
+      "conversions": 7,
+      "ctr": 3.57,
+      "cpa": 30.36,
+      "channels": {
+        "Google Ads": {
+          "spend": 123.04,
+          "impressions": 1851,
+          "clicks": 66,
+          "conversions": 4,
+          "ctr": 3.57,
+          "cpa": 30.76
+        },
+        "Meta Ads": {
+          "spend": 89.45,
+          "impressions": 1345,
+          "clicks": 48,
+          "conversions": 3,
+          "ctr": 3.57,
+          "cpa": 29.82
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "clientId": "nova-realty",
+      "spend": 328.04,
+      "impressions": 2332,
+      "clicks": 79,
+      "conversions": 2,
+      "ctr": 3.39,
+      "cpa": 164.02,
+      "channels": {
+        "Meta Ads": {
+          "spend": 234.63,
+          "impressions": 1668,
+          "clicks": 57,
+          "conversions": 1,
+          "ctr": 3.42,
+          "cpa": 234.63
+        },
+        "Google Ads": {
+          "spend": 93.41,
+          "impressions": 664,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 3.31,
+          "cpa": 93.41
+        }
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "clientId": "bloom-skincare",
+      "spend": 152.74,
+      "impressions": 4546,
+      "clicks": 157,
+      "conversions": 8,
+      "ctr": 3.45,
+      "cpa": 19.09,
+      "channels": {
+        "Meta Ads": {
+          "spend": 81.7,
+          "impressions": 2432,
+          "clicks": 84,
+          "conversions": 4,
+          "ctr": 3.45,
+          "cpa": 20.43
+        },
+        "Google Ads": {
+          "spend": 52.58,
+          "impressions": 1565,
+          "clicks": 54,
+          "conversions": 3,
+          "ctr": 3.45,
+          "cpa": 17.53
+        },
+        "Email": {
+          "spend": 8.78,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 8.78
+        }
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "clientId": "apex-fitness",
+      "spend": 213.35,
+      "impressions": 3308,
+      "clicks": 110,
+      "conversions": 6,
+      "ctr": 3.33,
+      "cpa": 35.56,
+      "channels": {
+        "Google Ads": {
+          "spend": 138.55,
+          "impressions": 2148,
+          "clicks": 71,
+          "conversions": 4,
+          "ctr": 3.31,
+          "cpa": 34.64
+        },
+        "Meta Ads": {
+          "spend": 74.8,
+          "impressions": 1160,
+          "clicks": 39,
+          "conversions": 2,
+          "ctr": 3.36,
+          "cpa": 37.4
+        }
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "clientId": "nova-realty",
+      "spend": 308.78,
+      "impressions": 2353,
+      "clicks": 75,
+      "conversions": 2,
+      "ctr": 3.19,
+      "cpa": 154.39,
+      "channels": {
+        "Meta Ads": {
+          "spend": 204.3,
+          "impressions": 1557,
+          "clicks": 50,
+          "conversions": 1,
+          "ctr": 3.21,
+          "cpa": 204.3
+        },
+        "Google Ads": {
+          "spend": 104.48,
+          "impressions": 796,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 3.14,
+          "cpa": 104.48
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "clientId": "bloom-skincare",
+      "spend": 171.63,
+      "impressions": 4788,
+      "clicks": 166,
+      "conversions": 8,
+      "ctr": 3.47,
+      "cpa": 21.45,
+      "channels": {
+        "Meta Ads": {
+          "spend": 102.98,
+          "impressions": 2873,
+          "clicks": 100,
+          "conversions": 5,
+          "ctr": 3.48,
+          "cpa": 20.6
+        },
+        "Google Ads": {
+          "spend": 66.04,
+          "impressions": 1842,
+          "clicks": 64,
+          "conversions": 3,
+          "ctr": 3.47,
+          "cpa": 22.01
+        },
+        "Email": {
+          "spend": 6.08,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 6.08
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "clientId": "apex-fitness",
+      "spend": 230.18,
+      "impressions": 3344,
+      "clicks": 118,
+      "conversions": 5,
+      "ctr": 3.53,
+      "cpa": 46.04,
+      "channels": {
+        "Google Ads": {
+          "spend": 126.11,
+          "impressions": 1832,
+          "clicks": 65,
+          "conversions": 3,
+          "ctr": 3.55,
+          "cpa": 42.04
+        },
+        "Meta Ads": {
+          "spend": 104.07,
+          "impressions": 1512,
+          "clicks": 53,
+          "conversions": 2,
+          "ctr": 3.51,
+          "cpa": 52.03
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "clientId": "nova-realty",
+      "spend": 369.42,
+      "impressions": 3009,
+      "clicks": 89,
+      "conversions": 3,
+      "ctr": 2.96,
+      "cpa": 123.14,
+      "channels": {
+        "Meta Ads": {
+          "spend": 238.59,
+          "impressions": 1943,
+          "clicks": 57,
+          "conversions": 2,
+          "ctr": 2.93,
+          "cpa": 119.3
+        },
+        "Google Ads": {
+          "spend": 130.83,
+          "impressions": 1066,
+          "clicks": 32,
+          "conversions": 1,
+          "ctr": 3,
+          "cpa": 130.83
+        }
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "clientId": "bloom-skincare",
+      "spend": 147.17,
+      "impressions": 3848,
+      "clicks": 145,
+      "conversions": 8,
+      "ctr": 3.77,
+      "cpa": 18.4,
+      "channels": {
+        "Meta Ads": {
+          "spend": 81.18,
+          "impressions": 2122,
+          "clicks": 80,
+          "conversions": 4,
+          "ctr": 3.77,
+          "cpa": 20.3
+        },
+        "Google Ads": {
+          "spend": 53.19,
+          "impressions": 1391,
+          "clicks": 52,
+          "conversions": 3,
+          "ctr": 3.74,
+          "cpa": 17.73
+        },
+        "Email": {
+          "spend": 7.66,
+          "impressions": 220,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 7.66
+        }
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "clientId": "apex-fitness",
+      "spend": 201.16,
+      "impressions": 2965,
+      "clicks": 105,
+      "conversions": 6,
+      "ctr": 3.54,
+      "cpa": 33.53,
+      "channels": {
+        "Google Ads": {
+          "spend": 124.11,
+          "impressions": 1829,
+          "clicks": 65,
+          "conversions": 4,
+          "ctr": 3.55,
+          "cpa": 31.03
+        },
+        "Meta Ads": {
+          "spend": 77.05,
+          "impressions": 1136,
+          "clicks": 40,
+          "conversions": 2,
+          "ctr": 3.52,
+          "cpa": 38.52
+        }
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "clientId": "nova-realty",
+      "spend": 309.73,
+      "impressions": 2501,
+      "clicks": 78,
+      "conversions": 2,
+      "ctr": 3.12,
+      "cpa": 154.87,
+      "channels": {
+        "Meta Ads": {
+          "spend": 228.98,
+          "impressions": 1849,
+          "clicks": 58,
+          "conversions": 1,
+          "ctr": 3.14,
+          "cpa": 228.98
+        },
+        "Google Ads": {
+          "spend": 80.75,
+          "impressions": 652,
+          "clicks": 20,
+          "conversions": 1,
+          "ctr": 3.07,
+          "cpa": 80.75
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "clientId": "bloom-skincare",
+      "spend": 166.89,
+      "impressions": 4622,
+      "clicks": 175,
+      "conversions": 9,
+      "ctr": 3.79,
+      "cpa": 18.54,
+      "channels": {
+        "Meta Ads": {
+          "spend": 91.33,
+          "impressions": 2529,
+          "clicks": 96,
+          "conversions": 5,
+          "ctr": 3.8,
+          "cpa": 18.27
+        },
+        "Google Ads": {
+          "spend": 61,
+          "impressions": 1689,
+          "clicks": 64,
+          "conversions": 3,
+          "ctr": 3.79,
+          "cpa": 20.33
+        },
+        "Email": {
+          "spend": 9.19,
+          "impressions": 260,
+          "clicks": 26,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 4.59
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "clientId": "apex-fitness",
+      "spend": 253.68,
+      "impressions": 3717,
+      "clicks": 137,
+      "conversions": 6,
+      "ctr": 3.69,
+      "cpa": 42.28,
+      "channels": {
+        "Google Ads": {
+          "spend": 144.47,
+          "impressions": 2117,
+          "clicks": 78,
+          "conversions": 3,
+          "ctr": 3.68,
+          "cpa": 48.16
+        },
+        "Meta Ads": {
+          "spend": 109.21,
+          "impressions": 1600,
+          "clicks": 59,
+          "conversions": 3,
+          "ctr": 3.69,
+          "cpa": 36.4
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "clientId": "nova-realty",
+      "spend": 280.92,
+      "impressions": 2142,
+      "clicks": 72,
+      "conversions": 2,
+      "ctr": 3.36,
+      "cpa": 140.46,
+      "channels": {
+        "Meta Ads": {
+          "spend": 196.18,
+          "impressions": 1496,
+          "clicks": 50,
+          "conversions": 1,
+          "ctr": 3.34,
+          "cpa": 196.18
+        },
+        "Google Ads": {
+          "spend": 84.74,
+          "impressions": 646,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 3.41,
+          "cpa": 84.74
+        }
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "clientId": "bloom-skincare",
+      "spend": 165.41,
+      "impressions": 4639,
+      "clicks": 162,
+      "conversions": 10,
+      "ctr": 3.49,
+      "cpa": 16.54,
+      "channels": {
+        "Meta Ads": {
+          "spend": 94.01,
+          "impressions": 2637,
+          "clicks": 92,
+          "conversions": 6,
+          "ctr": 3.49,
+          "cpa": 15.67
+        },
+        "Google Ads": {
+          "spend": 57.44,
+          "impressions": 1611,
+          "clicks": 56,
+          "conversions": 3,
+          "ctr": 3.48,
+          "cpa": 19.15
+        },
+        "Email": {
+          "spend": 6.07,
+          "impressions": 240,
+          "clicks": 24,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.04
+        }
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "clientId": "apex-fitness",
+      "spend": 246.23,
+      "impressions": 3901,
+      "clicks": 125,
+      "conversions": 7,
+      "ctr": 3.2,
+      "cpa": 35.18,
+      "channels": {
+        "Google Ads": {
+          "spend": 154.45,
+          "impressions": 2447,
+          "clicks": 78,
+          "conversions": 4,
+          "ctr": 3.19,
+          "cpa": 38.61
+        },
+        "Meta Ads": {
+          "spend": 91.78,
+          "impressions": 1454,
+          "clicks": 47,
+          "conversions": 3,
+          "ctr": 3.23,
+          "cpa": 30.59
+        }
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "clientId": "nova-realty",
+      "spend": 379.79,
+      "impressions": 2788,
+      "clicks": 95,
+      "conversions": 2,
+      "ctr": 3.41,
+      "cpa": 189.9,
+      "channels": {
+        "Meta Ads": {
+          "spend": 254.55,
+          "impressions": 1869,
+          "clicks": 64,
+          "conversions": 1,
+          "ctr": 3.42,
+          "cpa": 254.55
+        },
+        "Google Ads": {
+          "spend": 125.24,
+          "impressions": 919,
+          "clicks": 31,
+          "conversions": 1,
+          "ctr": 3.37,
+          "cpa": 125.24
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "clientId": "bloom-skincare",
+      "spend": 134.17,
+      "impressions": 3519,
+      "clicks": 139,
+      "conversions": 8,
+      "ctr": 3.95,
+      "cpa": 16.77,
+      "channels": {
+        "Meta Ads": {
+          "spend": 76.33,
+          "impressions": 2002,
+          "clicks": 79,
+          "conversions": 5,
+          "ctr": 3.95,
+          "cpa": 15.27
+        },
+        "Google Ads": {
+          "spend": 46.74,
+          "impressions": 1226,
+          "clicks": 48,
+          "conversions": 3,
+          "ctr": 3.92,
+          "cpa": 15.58
+        },
+        "Email": {
+          "spend": 6.79,
+          "impressions": 210,
+          "clicks": 21,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 6.79
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "clientId": "apex-fitness",
+      "spend": 183.86,
+      "impressions": 2882,
+      "clicks": 101,
+      "conversions": 6,
+      "ctr": 3.5,
+      "cpa": 30.64,
+      "channels": {
+        "Google Ads": {
+          "spend": 117.51,
+          "impressions": 1842,
+          "clicks": 65,
+          "conversions": 4,
+          "ctr": 3.53,
+          "cpa": 29.38
+        },
+        "Meta Ads": {
+          "spend": 66.35,
+          "impressions": 1040,
+          "clicks": 36,
+          "conversions": 2,
+          "ctr": 3.46,
+          "cpa": 33.17
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "clientId": "nova-realty",
+      "spend": 343.29,
+      "impressions": 3132,
+      "clicks": 89,
+      "conversions": 3,
+      "ctr": 2.84,
+      "cpa": 114.43,
+      "channels": {
+        "Meta Ads": {
+          "spend": 234.1,
+          "impressions": 2136,
+          "clicks": 61,
+          "conversions": 2,
+          "ctr": 2.86,
+          "cpa": 117.05
+        },
+        "Google Ads": {
+          "spend": 109.19,
+          "impressions": 996,
+          "clicks": 28,
+          "conversions": 1,
+          "ctr": 2.81,
+          "cpa": 109.19
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "clientId": "bloom-skincare",
+      "spend": 172.67,
+      "impressions": 4896,
+      "clicks": 181,
+      "conversions": 11,
+      "ctr": 3.7,
+      "cpa": 15.7,
+      "channels": {
+        "Meta Ads": {
+          "spend": 93.13,
+          "impressions": 2641,
+          "clicks": 98,
+          "conversions": 6,
+          "ctr": 3.71,
+          "cpa": 15.52
+        },
+        "Google Ads": {
+          "spend": 62.81,
+          "impressions": 1781,
+          "clicks": 66,
+          "conversions": 4,
+          "ctr": 3.71,
+          "cpa": 15.7
+        },
+        "Email": {
+          "spend": 5.48,
+          "impressions": 270,
+          "clicks": 27,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 2.74
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "clientId": "apex-fitness",
+      "spend": 249.06,
+      "impressions": 3860,
+      "clicks": 137,
+      "conversions": 7,
+      "ctr": 3.55,
+      "cpa": 35.58,
+      "channels": {
+        "Google Ads": {
+          "spend": 137.8,
+          "impressions": 2136,
+          "clicks": 76,
+          "conversions": 4,
+          "ctr": 3.56,
+          "cpa": 34.45
+        },
+        "Meta Ads": {
+          "spend": 111.26,
+          "impressions": 1724,
+          "clicks": 61,
+          "conversions": 3,
+          "ctr": 3.54,
+          "cpa": 37.09
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "clientId": "nova-realty",
+      "spend": 313.74,
+      "impressions": 2672,
+      "clicks": 82,
+      "conversions": 2,
+      "ctr": 3.07,
+      "cpa": 156.87,
+      "channels": {
+        "Meta Ads": {
+          "spend": 223.72,
+          "impressions": 1905,
+          "clicks": 58,
+          "conversions": 1,
+          "ctr": 3.04,
+          "cpa": 223.72
+        },
+        "Google Ads": {
+          "spend": 90.02,
+          "impressions": 767,
+          "clicks": 24,
+          "conversions": 1,
+          "ctr": 3.13,
+          "cpa": 90.02
+        }
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "clientId": "bloom-skincare",
+      "spend": 161.55,
+      "impressions": 4429,
+      "clicks": 170,
+      "conversions": 7,
+      "ctr": 3.84,
+      "cpa": 23.08,
+      "channels": {
+        "Meta Ads": {
+          "spend": 88.48,
+          "impressions": 2426,
+          "clicks": 93,
+          "conversions": 4,
+          "ctr": 3.83,
+          "cpa": 22.12
+        },
+        "Google Ads": {
+          "spend": 53.41,
+          "impressions": 1464,
+          "clicks": 56,
+          "conversions": 2,
+          "ctr": 3.83,
+          "cpa": 26.7
+        },
+        "Email": {
+          "spend": 9.84,
+          "impressions": 260,
+          "clicks": 26,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 9.84
+        }
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "clientId": "apex-fitness",
+      "spend": 220.37,
+      "impressions": 3308,
+      "clicks": 112,
+      "conversions": 6,
+      "ctr": 3.39,
+      "cpa": 36.73,
+      "channels": {
+        "Google Ads": {
+          "spend": 122.94,
+          "impressions": 1846,
+          "clicks": 62,
+          "conversions": 3,
+          "ctr": 3.36,
+          "cpa": 40.98
+        },
+        "Meta Ads": {
+          "spend": 97.43,
+          "impressions": 1462,
+          "clicks": 50,
+          "conversions": 3,
+          "ctr": 3.42,
+          "cpa": 32.48
+        }
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "clientId": "nova-realty",
+      "spend": 288.99,
+      "impressions": 2112,
+      "clicks": 72,
+      "conversions": 2,
+      "ctr": 3.41,
+      "cpa": 144.5,
+      "channels": {
+        "Meta Ads": {
+          "spend": 206.94,
+          "impressions": 1512,
+          "clicks": 52,
+          "conversions": 1,
+          "ctr": 3.44,
+          "cpa": 206.94
+        },
+        "Google Ads": {
+          "spend": 82.05,
+          "impressions": 600,
+          "clicks": 20,
+          "conversions": 1,
+          "ctr": 3.33,
+          "cpa": 82.05
+        }
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "clientId": "bloom-skincare",
+      "spend": 145.75,
+      "impressions": 4068,
+      "clicks": 150,
+      "conversions": 9,
+      "ctr": 3.69,
+      "cpa": 16.19,
+      "channels": {
+        "Meta Ads": {
+          "spend": 76.25,
+          "impressions": 2128,
+          "clicks": 78,
+          "conversions": 5,
+          "ctr": 3.67,
+          "cpa": 15.25
+        },
+        "Google Ads": {
+          "spend": 51.16,
+          "impressions": 1428,
+          "clicks": 53,
+          "conversions": 3,
+          "ctr": 3.71,
+          "cpa": 17.05
+        },
+        "Email": {
+          "spend": 6.53,
+          "impressions": 230,
+          "clicks": 23,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 3.27
+        }
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "clientId": "apex-fitness",
+      "spend": 248.58,
+      "impressions": 4037,
+      "clicks": 132,
+      "conversions": 8,
+      "ctr": 3.27,
+      "cpa": 31.07,
+      "channels": {
+        "Google Ads": {
+          "spend": 158.34,
+          "impressions": 2572,
+          "clicks": 84,
+          "conversions": 5,
+          "ctr": 3.27,
+          "cpa": 31.67
+        },
+        "Meta Ads": {
+          "spend": 90.24,
+          "impressions": 1465,
+          "clicks": 48,
+          "conversions": 3,
+          "ctr": 3.28,
+          "cpa": 30.08
+        }
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "clientId": "nova-realty",
+      "spend": 329,
+      "impressions": 2441,
+      "clicks": 81,
+      "conversions": 2,
+      "ctr": 3.32,
+      "cpa": 164.5,
+      "channels": {
+        "Meta Ads": {
+          "spend": 226.03,
+          "impressions": 1677,
+          "clicks": 56,
+          "conversions": 1,
+          "ctr": 3.34,
+          "cpa": 226.03
+        },
+        "Google Ads": {
+          "spend": 102.97,
+          "impressions": 764,
+          "clicks": 25,
+          "conversions": 1,
+          "ctr": 3.27,
+          "cpa": 102.97
+        }
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "clientId": "bloom-skincare",
+      "spend": 136.44,
+      "impressions": 3869,
+      "clicks": 144,
+      "conversions": 6,
+      "ctr": 3.72,
+      "cpa": 22.74,
+      "channels": {
+        "Meta Ads": {
+          "spend": 77,
+          "impressions": 2184,
+          "clicks": 81,
+          "conversions": 3,
+          "ctr": 3.71,
+          "cpa": 25.67
+        },
+        "Google Ads": {
+          "spend": 49.6,
+          "impressions": 1406,
+          "clicks": 52,
+          "conversions": 2,
+          "ctr": 3.7,
+          "cpa": 24.8
+        },
+        "Email": {
+          "spend": 8.97,
+          "impressions": 220,
+          "clicks": 22,
+          "conversions": 1,
+          "ctr": 10,
+          "cpa": 8.97
+        }
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "clientId": "apex-fitness",
+      "spend": 254.24,
+      "impressions": 3779,
+      "clicks": 133,
+      "conversions": 6,
+      "ctr": 3.52,
+      "cpa": 42.37,
+      "channels": {
+        "Google Ads": {
+          "spend": 140.58,
+          "impressions": 2090,
+          "clicks": 74,
+          "conversions": 3,
+          "ctr": 3.54,
+          "cpa": 46.86
+        },
+        "Meta Ads": {
+          "spend": 113.66,
+          "impressions": 1689,
+          "clicks": 59,
+          "conversions": 3,
+          "ctr": 3.49,
+          "cpa": 37.89
+        }
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "clientId": "nova-realty",
+      "spend": 359.29,
+      "impressions": 3278,
+      "clicks": 93,
+      "conversions": 3,
+      "ctr": 2.84,
+      "cpa": 119.76,
+      "channels": {
+        "Meta Ads": {
+          "spend": 235.21,
+          "impressions": 2146,
+          "clicks": 61,
+          "conversions": 2,
+          "ctr": 2.84,
+          "cpa": 117.61
+        },
+        "Google Ads": {
+          "spend": 124.08,
+          "impressions": 1132,
+          "clicks": 32,
+          "conversions": 1,
+          "ctr": 2.83,
+          "cpa": 124.08
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "clientId": "bloom-skincare",
+      "spend": 165.91,
+      "impressions": 4831,
+      "clicks": 169,
+      "conversions": 10,
+      "ctr": 3.5,
+      "cpa": 16.59,
+      "channels": {
+        "Meta Ads": {
+          "spend": 96.54,
+          "impressions": 2811,
+          "clicks": 98,
+          "conversions": 6,
+          "ctr": 3.49,
+          "cpa": 16.09
+        },
+        "Google Ads": {
+          "spend": 53.62,
+          "impressions": 1561,
+          "clicks": 55,
+          "conversions": 3,
+          "ctr": 3.52,
+          "cpa": 17.87
+        },
+        "Email": {
+          "spend": 9.51,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 4.75
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "clientId": "apex-fitness",
+      "spend": 207.97,
+      "impressions": 3261,
+      "clicks": 111,
+      "conversions": 6,
+      "ctr": 3.4,
+      "cpa": 34.66,
+      "channels": {
+        "Google Ads": {
+          "spend": 131.08,
+          "impressions": 2055,
+          "clicks": 70,
+          "conversions": 4,
+          "ctr": 3.41,
+          "cpa": 32.77
+        },
+        "Meta Ads": {
+          "spend": 76.89,
+          "impressions": 1206,
+          "clicks": 41,
+          "conversions": 2,
+          "ctr": 3.4,
+          "cpa": 38.45
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "clientId": "nova-realty",
+      "spend": 382.77,
+      "impressions": 3232,
+      "clicks": 98,
+      "conversions": 2,
+      "ctr": 3.03,
+      "cpa": 191.38,
+      "channels": {
+        "Meta Ads": {
+          "spend": 259.62,
+          "impressions": 2192,
+          "clicks": 66,
+          "conversions": 1,
+          "ctr": 3.01,
+          "cpa": 259.62
+        },
+        "Google Ads": {
+          "spend": 123.15,
+          "impressions": 1040,
+          "clicks": 32,
+          "conversions": 1,
+          "ctr": 3.08,
+          "cpa": 123.15
+        }
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "clientId": "bloom-skincare",
+      "spend": 164.96,
+      "impressions": 4191,
+      "clicks": 165,
+      "conversions": 9,
+      "ctr": 3.94,
+      "cpa": 18.33,
+      "channels": {
+        "Meta Ads": {
+          "spend": 85.12,
+          "impressions": 2162,
+          "clicks": 85,
+          "conversions": 5,
+          "ctr": 3.93,
+          "cpa": 17.02
+        },
+        "Google Ads": {
+          "spend": 52.81,
+          "impressions": 1342,
+          "clicks": 53,
+          "conversions": 3,
+          "ctr": 3.95,
+          "cpa": 17.6
+        },
+        "Email": {
+          "spend": 5.47,
+          "impressions": 250,
+          "clicks": 25,
+          "conversions": 2,
+          "ctr": 10,
+          "cpa": 2.73
+        }
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "clientId": "apex-fitness",
+      "spend": 185.24,
+      "impressions": 3051,
+      "clicks": 97,
+      "conversions": 6,
+      "ctr": 3.18,
+      "cpa": 30.87,
+      "channels": {
+        "Google Ads": {
+          "spend": 108.26,
+          "impressions": 1783,
+          "clicks": 57,
+          "conversions": 4,
+          "ctr": 3.2,
+          "cpa": 27.07
+        },
+        "Meta Ads": {
+          "spend": 76.98,
+          "impressions": 1268,
+          "clicks": 40,
+          "conversions": 2,
+          "ctr": 3.15,
+          "cpa": 38.49
+        }
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "clientId": "nova-realty",
+      "spend": 367.66,
+      "impressions": 3198,
+      "clicks": 97,
+      "conversions": 2,
+      "ctr": 3.03,
+      "cpa": 183.83,
+      "channels": {
+        "Meta Ads": {
+          "spend": 254.79,
+          "impressions": 2216,
+          "clicks": 67,
+          "conversions": 1,
+          "ctr": 3.02,
+          "cpa": 254.79
+        },
+        "Google Ads": {
+          "spend": 112.87,
+          "impressions": 982,
+          "clicks": 30,
+          "conversions": 1,
+          "ctr": 3.05,
+          "cpa": 112.87
+        }
+      }
+    }
+  ]
+}
