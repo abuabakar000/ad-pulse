@@ -62,21 +62,32 @@ export default function AISummary({
     }
   }, [clientId, range, startDate, endDate, triggerRefresh]);
 
-  // Micro-interaction: Typewriter effect when summary loads
+  // Micro-interaction: Snappy, slice-based typewriter effect that prevents text corruption
   useEffect(() => {
-    if (!summary || loading) return;
+    if (!summary) {
+      setTypewriterText('');
+      return;
+    }
 
+    setTypewriterText('');
+    let active = true;
     let index = 0;
-    const intervalId = setInterval(() => {
-      setTypewriterText(prev => prev + summary.charAt(index));
-      index++;
-      if (index >= summary.length) {
-        clearInterval(intervalId);
-      }
-    }, 4); // Fast, snappy typing animation
 
-    return () => clearInterval(intervalId);
-  }, [summary, loading]);
+    const type = () => {
+      if (!active) return;
+      setTypewriterText(summary.slice(0, index + 1));
+      index++;
+      if (index < summary.length) {
+        setTimeout(type, 5); // Fast, smooth typing speed
+      }
+    };
+
+    type();
+
+    return () => {
+      active = false;
+    };
+  }, [summary]);
 
   return (
     <div className="relative overflow-hidden bg-neutral-950 border border-neutral-900 rounded-2xl p-6 text-white shadow-xl shadow-black">
