@@ -2,8 +2,6 @@
 
 import React, { useRef, useState } from 'react';
 import { Download, FileText, CheckCircle2, AlertCircle } from 'lucide-react';
-import { jsPDF } from 'jspdf';
-import html2canvas from 'html2canvas';
 
 interface PDFReportProps {
   data: any;
@@ -41,9 +39,12 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
     setStatusMessage('Preparing document...');
 
     try {
-      // Defensive resolution for Next.js bundler/turbopack compatibility
-      const ResolvedjsPDF = (jsPDF as any).jsPDF || jsPDF;
-      const Resolvedhtml2canvas = (html2canvas as any).default || html2canvas;
+      // Dynamically import libraries at runtime to avoid SSR pre-rendering bugs and resolver wraps
+      const jspdfModule = await import('jspdf');
+      const html2canvasModule = await import('html2canvas');
+
+      const ResolvedjsPDF = jspdfModule.jsPDF || (jspdfModule as any).default || jspdfModule;
+      const Resolvedhtml2canvas = html2canvasModule.default || html2canvasModule;
 
       const pdf = new ResolvedjsPDF({
         orientation: 'p',
@@ -127,8 +128,11 @@ export default function PDFReport({ data, aiSummaryText, rangeText }: PDFReportP
         )}
       </button>
 
-      {/* 2. Hidden PDF Templates (A4 Layout Container) */}
-      <div className="absolute left-[-9999px] top-[-9999px] pointer-events-none select-none">
+      {/* 2. Hidden PDF Templates (A4 Layout Container positioned at 0,0 but layered behind and transparent) */}
+      <div 
+        className="fixed top-0 left-0 pointer-events-none select-none" 
+        style={{ zIndex: -9999, opacity: 0.01 }}
+      >
         
         {/* PAGE 1: COVER PAGE */}
         <div 
